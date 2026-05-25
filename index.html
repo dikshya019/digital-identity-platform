@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dikshya's Dream Space ✨</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Quicksand:wght@400;500&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+height:100vh;
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:'Quicksand', sans-serif;
+background:
+linear-gradient(135deg,#ffe6f0,#f7ddff,#dbe7ff);
+position:relative;
+}
+
+/* floating sparkles */
+.sparkle{
+position:absolute;
+font-size:22px;
+animation: float 8s linear infinite;
+opacity:0.8;
+}
+
+@keyframes float{
+0%{
+transform:translateY(100vh) rotate(0deg);
+}
+100%{
+transform:translateY(-120vh) rotate(360deg);
+}
+}
+
+/* dreamy card */
+.card{
+width:370px;
+padding:45px;
+border-radius:35px;
+background:rgba(255,255,255,0.35);
+backdrop-filter: blur(18px);
+box-shadow:0 10px 40px rgba(0,0,0,0.12);
+text-align:center;
+border:1px solid rgba(255,255,255,0.3);
+}
+
+.small{
+letter-spacing:4px;
+font-size:12px;
+color:#8f7397;
+margin-bottom:15px;
+}
+
+h1{
+font-family:'Cormorant Garamond', serif;
+font-size:42px;
+color:#6f5575;
+margin-bottom:8px;
+}
+
+.subtitle{
+font-size:14px;
+color:#876f8c;
+font-style:italic;
+margin-bottom:20px;
+}
+
+.about{
+background:white;
+padding:14px;
+border-radius:20px;
+color:#8a6a90;
+font-size:14px;
+line-height:1.6;
+}
+
+.tags{
+margin-top:22px;
+}
+
+.tag{
+display:inline-block;
+padding:8px 14px;
+margin:5px;
+background:white;
+border-radius:30px;
+font-size:12px;
+color:#a16fae;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.footer{
+margin-top:20px;
+font-size:12px;
+color:#96779b;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sparkle" style="left:10%; animation-duration:8s;">✨</div>
+<div class="sparkle" style="left:25%; animation-duration:10s;">🎀</div>
+<div class="sparkle" style="left:70%; animation-duration:9s;">🌷</div>
+<div class="sparkle" style="left:85%; animation-duration:11s;">☁️</div>
+<div class="sparkle" style="left:50%; animation-duration:7s;">💖</div>
+
+<div class="card">
+
+<p class="small">WELCOME TO MY WORLD</p>
+
+<h1>Dikshya 🌷</h1>
+
+<p class="subtitle">
+coding, creativity & soft dreams ✨
+</p>
+
+<div class="about">
+Hi! I'm Dikshya, a Software Engineering student who loves creating beautiful things through technology 💻💖
+</div>
+
+<div class="tags">
+<span class="tag">🎀 Creative</span>
+<span class="tag">☁️ Dreamer</span>
+<span class="tag">💻 Future Developer</span>
+</div>
+
+<p class="footer">
+made with soft skies & cute ideas ✨
+</p>
+
+</div>
+
+</body>
+</html>
